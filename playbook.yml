@@ -1,7 +1,7 @@
 - hosts: all
   become: true
   vars:
-    repository: "https://github.com/fetus-hina/stat.ink.git"
+    repository: "https://github.com/cass-dlcm/stat.ink.git"
     db_user: "statink"
     db_pass: "statink"
     db_database: "statink"
