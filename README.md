@@ -12,7 +12,7 @@ Set up
 
 ```sh
 # Checkout the script
-git clone https://github.com/statink/devenv-vagrant.git
+git clone https://github.com/cass-dlcm/devenv-vagrant.git
 cd devenv-vagrant
 
 # Create & set up a virtual machine
