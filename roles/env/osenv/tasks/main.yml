@@ -8,11 +8,15 @@
       - '@base'
       - epel-release
       - scl-utils
+      - kernel-devel
     state: installed
 
 - name: Update installed RPM packages
   yum:
-    name: '*'
+    name: 
+      - '*'
+      - kernel
+      - kernel-headers
     state: latest
 
 - name: Disable SELinux (runtime)
